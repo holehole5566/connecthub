@@ -1,0 +1,130 @@
+[
+  {
+    "id": 111111111,
+    "telegram_user_id": 111111111,
+    "first_name": "Emma",
+    "last_name": "Wilson",
+    "username": "emma_w",
+    "email": "emma.wilson@example.com",
+    "birthday": "1999-03-15",
+    "gender": "female",
+    "age": 24,
+    "bio": "Love traveling and photography 📸 Always up for new adventures!",
+    "interests": ["Photography", "Travel", "Coffee", "Hiking"],
+    "location": {
+      "latitude": 25.7128,
+      "longitude": 121.0060,
+      "city": "New York"
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=400&auto=format&fit=crop"
+    ],
+    "photo_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop",
+    "distance": 2.0,
+    "is_active": true,
+    "last_seen": "2024-12-01T10:00:00Z",
+    "created_at": "2024-11-01T10:00:00Z",
+    "updated_at": "2024-12-01T10:00:00Z",
+    "is_verified": true,
+    "report_count": 0,
+    "is_premium": true,
+    "language_code": "en"
+  },
+  {
+    "id": 222222222,
+    "telegram_user_id": 222222222,
+    "first_name": "James",
+    "last_name": "Rodriguez",
+    "username": "james_r",
+    "email": "james.rodriguez@example.com",
+    "birthday": "1995-07-22",
+    "gender": "male",
+    "age": 28,
+    "bio": "Software developer by day, chef by night 👨💻🍳",
+    "interests": ["Coding", "Cooking", "Gaming", "Music"],
+    "location": {
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "city": "Los Angeles"
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop"
+    ],
+    "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop",
+    "distance": 5.0,
+    "is_active": true,
+    "last_seen": "2024-12-01T09:30:00Z",
+    "created_at": "2024-11-15T10:00:00Z",
+    "updated_at": "2024-12-01T09:30:00Z",
+    "is_verified": false,
+    "report_count": 0,
+    "is_premium": false,
+    "language_code": "en"
+  },
+  {
+    "id": 333333333,
+    "telegram_user_id": 333333333,
+    "first_name": "Sofia",
+    "last_name": null,
+    "username": "sofia_art",
+    "email": "sofia.art@example.com",
+    "birthday": "1997-11-08",
+    "gender": "female",
+    "age": 26,
+    "bio": "Artist and yoga instructor 🎨🧘♀️ Spreading good vibes only",
+    "interests": ["Art", "Yoga", "Meditation", "Nature"],
+    "location": {
+      "latitude": 41.8781,
+      "longitude": -87.6298,
+      "city": "Chicago"
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&auto=format&fit=crop"
+    ],
+    "photo_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=100&auto=format&fit=crop",
+    "distance": 8.0,
+    "is_active": true,
+    "last_seen": "2024-12-01T08:45:00Z",
+    "created_at": "2024-10-15T10:00:00Z",
+    "updated_at": "2024-12-01T08:45:00Z",
+    "is_verified": true,
+    "report_count": 0,
+    "is_premium": true,
+    "language_code": "es"
+  },
+  {
+    "id": 444444444,
+    "telegram_user_id": 444444444,
+    "first_name": "Michael",
+    "last_name": "Chen",
+    "username": "mike_fitness",
+    "email": "michael.chen@example.com",
+    "birthday": "1993-04-12",
+    "gender": "male",
+    "age": 30,
+    "bio": "Fitness trainer and outdoor enthusiast 💪 Let's explore together!",
+    "interests": ["Fitness", "Rock Climbing", "Cycling", "Movies"],
+    "location": {
+      "latitude": 25.7617,
+      "longitude": 121.1918,
+      "city": "Miami"
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop"
+    ],
+    "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop",
+    "distance": 12.0,
+    "is_active": true,
+    "last_seen": "2024-12-01T07:20:00Z",
+    "created_at": "2024-11-10T10:00:00Z",
+    "updated_at": "2024-12-01T07:20:00Z",
+    "is_verified": false,
+    "report_count": 0,
+    "is_premium": false,
+    "language_code": "en"
+  }
+]

@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: connecthub_db
+      POSTGRES_USER: connecthub_user
+      POSTGRES_PASSWORD: your_password_here
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - connecthub-network
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - connecthub-network
+
+  httpserver:
+    build:
+      context: ../connecthub-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - connecthub-network
+
+  chatserver:
+    build:
+      context: ../connecthub-backend
+      dockerfile: Dockerfile.chat
+    ports:
+      - "8765:8765"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    networks:
+      - connecthub-network
+
+  frontend:
+    build:
+      context: ../connecthub-frontend
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    networks:
+      - connecthub-network
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    depends_on:
+      - frontend
+      - httpserver
+      - chatserver
+    networks:
+      - connecthub-network
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email your-email@example.com -d your-domain.com --agree-tos
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  connecthub-network:
+    driver: bridge

@@ -1,0 +1,41 @@
+.action-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-weight: bold;
+  z-index: 1000;
+  pointer-events: none;
+  animation: bounceUp 1s ease-out forwards;
+}
+
+.action-animation.like {
+  color: #38d39f;
+}
+
+.action-animation.nope {
+  color: #ff637d;
+}
+
+.action-animation.super {
+  color: #5aaaff;
+}
+
+@keyframes bounceUp {
+  0% {
+    transform: translate(-50%, 100vh) scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -60%) scale(1.2);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}

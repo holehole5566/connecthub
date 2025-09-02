@@ -1,0 +1,46 @@
+[
+  {
+    "id": 111111111,
+    "user_id": 111111111,
+    "max_distance": 50,
+    "age_range": {
+      "min": 18,
+      "max": 35
+    },
+    "show_me_in_discovery": true,
+    "is_paused": false
+  },
+  {
+    "id": 222222222,
+    "user_id": 222222222,
+    "max_distance": 25,
+    "age_range": {
+      "min": 22,
+      "max": 30
+    },
+    "show_me_in_discovery": true,
+    "is_paused": false
+  },
+  {
+    "id": 333333333,
+    "user_id": 333333333,
+    "max_distance": 75,
+    "age_range": {
+      "min": 20,
+      "max": 40
+    },
+    "show_me_in_discovery": true,
+    "is_paused": false
+  },
+  {
+    "id": 444444444,
+    "user_id": 444444444,
+    "max_distance": 30,
+    "age_range": {
+      "min": 25,
+      "max": 35
+    },
+    "show_me_in_discovery": true,
+    "is_paused": true
+  }
+]

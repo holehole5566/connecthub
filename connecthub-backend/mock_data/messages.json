@@ -1,0 +1,42 @@
+[
+  {
+    "id": "msg_1",
+    "match_id": "match_1",
+    "text": "Hi there! Nice to match with you 😊",
+    "is_from_current_user": false,
+    "sent_at": "2024-11-25T15:00:00Z",
+    "status": "read"
+  },
+  {
+    "id": "msg_2",
+    "match_id": "match_1",
+    "text": "Hey! Thanks, you seem really interesting too!",
+    "is_from_current_user": true,
+    "sent_at": "2024-11-25T15:30:00Z",
+    "status": "read"
+  },
+  {
+    "id": "msg_3",
+    "match_id": "match_1",
+    "text": "I saw you're into photography. Do you have any favorite spots in the city?",
+    "is_from_current_user": false,
+    "sent_at": "2024-11-26T09:15:00Z",
+    "status": "read"
+  },
+  {
+    "id": "msg_4",
+    "match_id": "match_1",
+    "text": "Yes! I love the rooftop gardens downtown. Great for sunset shots 📸",
+    "is_from_current_user": true,
+    "sent_at": "2024-11-26T10:45:00Z",
+    "status": "read"
+  },
+  {
+    "id": "msg_5",
+    "match_id": "match_1",
+    "text": "Hey! How's your day going?",
+    "is_from_current_user": false,
+    "sent_at": "2024-11-30T16:45:00Z",
+    "status": "delivered"
+  }
+]
