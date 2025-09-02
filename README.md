@@ -2,8 +2,6 @@
 
 A modern, full-stack dating application built with React, FastAPI, PostgreSQL, and Redis. Features real-time chat, location-based matching, and a swipe-based discovery system.
 
-> 🤖 **AI-Powered Development**: This project leverages Amazon Q Developer for accelerated development.
-
 ## ✨ Features
 
 - 🔐 **User Authentication**: Secure registration and login system
@@ -12,7 +10,6 @@ A modern, full-stack dating application built with React, FastAPI, PostgreSQL, a
 - 💬 **Real-time Chat**: Instant messaging with Socket.IO
 - 📍 **Location Matching**: Distance-based user matching
 - ⚙️ **Customizable Settings**: Age range, distance, and preference controls
-- 📱 **Responsive Design**: Mobile-first, responsive UI
 
 ## 🛠 Tech Stack
 
@@ -111,7 +108,6 @@ connecthub/
 
 ## 🔒 Security Features
 
-- JWT-based authentication
 - Password hashing with bcrypt
 - CORS protection
 - SSL/TLS encryption
