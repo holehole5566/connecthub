@@ -22,38 +22,6 @@ A modern, full-stack dating application built with React, FastAPI, PostgreSQL, a
 
 ## 🚀 Quick Start
 
-### Development Mode
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd connecthub
-   ```
-
-2. **Setup Backend**
-   ```bash
-   cd connecthub-backend
-   cp .env.example .env
-   # Edit .env with your configuration
-   uv sync
-   uv run python main.py
-   ```
-
-3. **Setup Frontend** (in new terminal)
-   ```bash
-   cd connecthub-frontend
-   cp .env.example .env.local
-   # Edit .env.local with your configuration
-   npm install
-   npm run dev
-   ```
-
-4. **Start Chat Server** (in new terminal)
-   ```bash
-   cd connecthub-backend
-   uv run python chatserver.py
-   ```
-
 ### Production Deployment
 
 See [SETUP.md](SETUP.md) for detailed production deployment instructions.
