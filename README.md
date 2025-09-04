@@ -2,6 +2,13 @@
 
 A modern, full-stack dating application built with React, FastAPI, PostgreSQL, and Redis. Features real-time chat, location-based matching, and a swipe-based discovery system.
 
+## 🙏 Acknowledgments
+
+- Built with modern web technologies
+- Inspired by popular dating applications
+- Community-driven development
+- **AI-Assisted Development**: Major portions of this codebase were generated and optimized using Amazon Q Developer, demonstrating the power of AI in modern software development
+
 ## ✨ Features
 
 - 🔐 **User Authentication**: Secure registration and login system
@@ -104,9 +111,3 @@ connecthub/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Built with modern web technologies
-- Inspired by popular dating applications
-- Community-driven development
-- **AI-Assisted Development**: Major portions of this codebase were generated and optimized using Amazon Q Developer, demonstrating the power of AI in modern software development
